@@ -9,7 +9,7 @@ static WebDriver driver;
 public static void main(String[] args) {
 		driver = new ChromeDriver();
 		driver.get("www.facebook.com");
-		
+		system.out.println(driver);
 	}
 	
 }
